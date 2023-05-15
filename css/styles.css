@@ -25,7 +25,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--logo-color);
+  color: var(--title-color);
 }
 .navigation-span {
   color: var(--title-main-color);
@@ -49,6 +49,7 @@ body {
   color: #404bbf;
 }
 .contact {
+  font-style: normal;
 }
 .contact-list {
 }
@@ -94,9 +95,11 @@ body {
 }
 .start-btn:hover {
   color: #404bbf;
+  background-color: #404bbf;
 }
 .start-btn:focus {
   color: #404bbf;
+  background-color: #404bbf;
 }
 .about {
 }
@@ -181,6 +184,9 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+.footer-span {
   color: #f4f4fd;
 }
 .services {
