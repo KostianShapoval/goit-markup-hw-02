@@ -28,7 +28,7 @@ body {
   color: var(--logo-color);
 }
 .navigation-span {
-  color: #f4f4fd;
+  color: var(--title-color);
 }
 .navigation-list {
 }
