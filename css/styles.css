@@ -3,11 +3,12 @@
   --logo-main-color: #ffffff;
   --title-color: #2e2f42;
   --text-color: #434455;
+  --footer-text: #f4f4fd;
 }
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #ffffff;
+  background-color: var(--logo-main-color);
 }
 .link {
   text-decoration: none;
@@ -35,7 +36,6 @@ body {
 .navigation-item {
 }
 .navigation-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -56,12 +56,10 @@ body {
 .contact-item {
 }
 .contact-link {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-color);
 }
 .contact-link:hover {
   color: #404bbf;
@@ -70,14 +68,14 @@ body {
   color: #404bbf;
 }
 .start {
-  background: #2e2f42;
+  background: var(--title-color);
 }
 .start-title {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--logo-main-color);
 }
 .start-btn {
   font-family: "Roboto", sans-serif;
@@ -87,15 +85,13 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--logo-main-color);
   cursor: pointer;
 }
 .start-btn:hover {
-  color: #404bbf;
   background-color: #404bbf;
 }
 .start-btn:focus {
-  color: #404bbf;
   background-color: #404bbf;
 }
 .about {
@@ -105,12 +101,11 @@ body {
 .about-item {
 }
 .about-title {
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-color);
 }
 .about-text {
   font-size: 16px;
@@ -134,7 +129,7 @@ body {
 .tasks-image {
 }
 .team {
-  background-color: #f4f4fd;
+  background-color: var(--footer-text);
 }
 .team-title {
   font-size: 36px;
@@ -147,7 +142,7 @@ body {
 .team-list {
 }
 .team-item {
-  background-color: #ffffff;
+  background-color: var(--logo-main-color);
 }
 .team-image {
 }
@@ -168,11 +163,10 @@ body {
   color: var(--text-color);
 }
 .footer {
-  background: #2e2f42;
+  background: var(--title-color);
 }
 .footer-link {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -181,10 +175,10 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--footer-text);
 }
 .footer-span {
-  color: #f4f4fd;
+  color: var(--footer-text);
 }
 .services {
 }
@@ -194,7 +188,7 @@ body {
 }
 .row-list-btn {
   font-family: "Roboto", sans-serif;
-  background: #f4f4fd;
+  background: var(--footer-text);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -205,11 +199,11 @@ body {
   cursor: pointer;
 }
 .row-list-btn:hover {
-  color: #ffffff;
+  color: var(--logo-main-color);
   background-color: #404bbf;
 }
 .row-list-btn:focus {
-  color: #ffffff;
+  color: var(--logo-main-color);
   background-color: #404bbf;
 }
 .services-list {
@@ -219,16 +213,15 @@ body {
 .services-image {
 }
 .services-title {
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-color);
 }
 .sercices-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-color);
 }
